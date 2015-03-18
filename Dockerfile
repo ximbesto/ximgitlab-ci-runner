@@ -22,6 +22,6 @@ RUN chmod 755 /app/init
 
 VOLUME ["/home/gitlab_ci_runner/data"]
 
-CMD ["/sbin/my_init"]
+#CMD ["/sbin/my_init"]
 ENTRYPOINT ["/app/init"]
 CMD ["app:start"]

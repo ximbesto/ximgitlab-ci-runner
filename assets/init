@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e
 
+echo "79.175.191.246	ci.cafebazaar.ir git.cafebazaar.ir" >> /etc/hosts
 INSTALL_DIR="/home/gitlab_ci_runner/gitlab-ci-runner"
 DATA_DIR="/home/gitlab_ci_runner/data"
 
